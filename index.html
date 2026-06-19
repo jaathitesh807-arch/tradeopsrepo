@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TradeOps</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+
+    body{
+        background:#0f172a;
+        color:white;
+    }
+
+    /* Header */
+    header{
+        background:#111827;
+        padding:20px 50px;
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .logo{
+        font-size:28px;
+        font-weight:bold;
+        color:#38bdf8;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin-left:20px;
+        transition:0.3s;
+    }
+
+    nav a:hover{
+        color:#38bdf8;
+    }
+
+    /* Hero Section */
+    .hero{
+        text-align:center;
+        padding:100px 20px;
+    }
+
+    .hero h1{
+        font-size:55px;
+        margin-bottom:20px;
+    }
+
+    .hero p{
+        font-size:20px;
+        color:#cbd5e1;
+        margin-bottom:30px;
+    }
+
+    .btn{
+        background:#38bdf8;
+        color:#000;
+        padding:12px 25px;
+        border:none;
+        border-radius:8px;
+        cursor:pointer;
+        font-size:18px;
+        font-weight:bold;
+    }
+
+    /* Features */
+    .features{
+        display:flex;
+        justify-content:center;
+        gap:25px;
+        flex-wrap:wrap;
+        padding:50px 20px;
+    }
+
+    .card{
+        background:#1e293b;
+        padding:25px;
+        width:300px;
+        border-radius:10px;
+        text-align:center;
+    }
+
+    .card h3{
+        color:#38bdf8;
+        margin-bottom:10px;
+    }
+
+    /* Footer */
+    footer{
+        background:#111827;
+        text-align:center;
+        padding:20px;
+        margin-top:50px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">TradeOps</div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Markets</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to TradeOps</h1>
+    <p>Your Smart Trading & Market Analysis Platform</p>
+
+    <button class="btn" onclick="showMessage()">
+        Get Started
+    </button>
+</section>
+
+<section class="features">
+    <div class="card">
+        <h3>Stock Analysis</h3>
+        <p>Track stocks and analyze market trends easily.</p>
+    </div>
+
+    <div class="card">
+        <h3>Portfolio Tracking</h3>
+        <p>Monitor your investments in real time.</p>
+    </div>
+
+    <div class="card">
+        <h3>Market Insights</h3>
+        <p>Get actionable trading insights and data.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 TradeOps. All Rights Reserved.</p>
+</footer>
+
+<script>
+function showMessage() {
+    alert("Welcome to TradeOps!");
+}
+</script>
+
+</body>
+</html>
